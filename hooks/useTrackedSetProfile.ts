@@ -6,7 +6,8 @@ import { useWriteContract } from "wagmi";
 import { Attribution } from "ox/erc8021";
 import {
   APP_ID,
-  BUILDER_CODE_PLACEHOLDER,
+  BUILDER_CODE,
+  BUILDER_CODE_DATA_SUFFIX,
   CHAINPROFILE_APP_NAME,
   CHAINPROFILE_CONTRACT_ADDRESS,
   chainProfileAbi,
@@ -14,9 +15,18 @@ import {
 import { trackTransaction } from "@/utils/track";
 
 const DATA_SUFFIX = Attribution.toDataSuffix({
-  // Replace BUILDER_CODE_PLACEHOLDER with your issued Builder Code.
-  codes: [BUILDER_CODE_PLACEHOLDER],
+  codes: [BUILDER_CODE],
 });
+
+if (
+  process.env.NODE_ENV !== "production" &&
+  DATA_SUFFIX.toLowerCase() !== BUILDER_CODE_DATA_SUFFIX.toLowerCase()
+) {
+  console.warn("Builder code data suffix mismatch", {
+    expected: BUILDER_CODE_DATA_SUFFIX,
+    actual: DATA_SUFFIX,
+  });
+}
 
 type SetProfileInput = {
   nickname: string;
