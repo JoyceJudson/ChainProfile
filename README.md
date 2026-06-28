@@ -136,3 +136,12 @@ bun run build
 ## Start a Production Build Locally
 
 After building the application, start it locally with:
+
+```bash
+npm run start
+```
+
+Or use:
+
+```bash
+yarn start
