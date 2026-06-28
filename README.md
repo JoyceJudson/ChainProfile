@@ -81,3 +81,12 @@ You can also use:
 yarn dev
 pnpm dev
 bun dev
+```
+
+After the server starts, open the application in your browser:
+
+[http://localhost:3000](http://localhost:3000)
+
+## Editing the Application
+
+The main page can be edited in:
