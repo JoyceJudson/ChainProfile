@@ -25,3 +25,13 @@ Changes made during development are reflected automatically in the browser.
 - Uses `next/font` for font optimization
 - Loads the Geist font family through the default Next.js font setup
 - Ready for deployment on platforms that support Next.js
+
+## Requirements
+
+Before running the project, make sure you have one of the supported JavaScript package managers installed.
+
+Common options include:
+
+- npm
+- Yarn
+- pnpm
