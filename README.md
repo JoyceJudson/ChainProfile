@@ -172,3 +172,13 @@ For more information, see the official Next.js deployment documentation:
 ## Learn More
 
 Useful Next.js resources:
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Next.js GitHub Repository](https://github.com/vercel/next.js)
+
+## Notes
+
+This README reflects the current Next.js starter foundation of ChainProfile.
+
+As the project evolves, update this document with any new setup steps, environment variables, scripts, routes, or deployment requirements.
