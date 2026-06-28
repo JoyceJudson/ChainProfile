@@ -145,3 +145,12 @@ Or use:
 
 ```bash
 yarn start
+pnpm start
+bun run start
+```
+
+## Linting
+
+If linting is configured in the project, run:
+
+```bash
