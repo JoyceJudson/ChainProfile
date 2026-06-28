@@ -62,3 +62,13 @@ npm install
 Or use another supported package manager:
 
 ```bash
+yarn install
+pnpm install
+bun install
+```
+
+## Running the Development Server
+
+Start the local development server:
+
+```bash
