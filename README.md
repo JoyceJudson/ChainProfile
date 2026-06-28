@@ -15,3 +15,13 @@ The project uses the App Router structure and can be run locally with the standa
 The default page can be edited from `app/page.tsx`.
 
 Changes made during development are reflected automatically in the browser.
+
+## Features
+
+- Built with Next.js
+- Created using `create-next-app`
+- Uses the App Router project structure
+- Supports local development with hot reloading
+- Uses `next/font` for font optimization
+- Loads the Geist font family through the default Next.js font setup
+- Ready for deployment on platforms that support Next.js
