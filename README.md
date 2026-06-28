@@ -35,3 +35,12 @@ Common options include:
 - npm
 - Yarn
 - pnpm
+- Bun
+
+You will also need a compatible Node.js environment for running a Next.js application.
+
+## Getting Started
+
+Clone the repository:
+
+```bash
