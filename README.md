@@ -118,3 +118,11 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 The default setup loads [Geist](https://vercel.com/font), a font family provided by Vercel.
 
 ## Build
+
+Create a production build with:
+
+```bash
+npm run build
+```
+
+Or with another package manager:
