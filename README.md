@@ -90,3 +90,11 @@ After the server starts, open the application in your browser:
 ## Editing the Application
 
 The main page can be edited in:
+
+```text
+app/page.tsx
+```
+
+When you save changes, the page updates automatically in the browser during development.
+
+## Project Structure
