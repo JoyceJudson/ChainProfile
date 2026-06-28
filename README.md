@@ -164,3 +164,11 @@ Use the equivalent command for your package manager if needed.
 The application can be deployed using a platform that supports Next.js.
 
 The easiest option for many Next.js projects is the [Vercel Platform](https://vercel.com/new?filter=next.js).
+
+For more information, see the official Next.js deployment documentation:
+
+[Next.js Deployment Documentation](https://nextjs.org/docs/app/building-your-application/deploying)
+
+## Learn More
+
+Useful Next.js resources:
