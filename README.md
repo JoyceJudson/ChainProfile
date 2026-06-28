@@ -52,3 +52,13 @@ Move into the project directory:
 ```bash
 cd ChainProfile
 ```
+
+Install dependencies with your preferred package manager:
+
+```bash
+npm install
+```
+
+Or use another supported package manager:
+
+```bash
