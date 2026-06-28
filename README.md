@@ -126,3 +126,13 @@ npm run build
 ```
 
 Or with another package manager:
+
+```bash
+yarn build
+pnpm build
+bun run build
+```
+
+## Start a Production Build Locally
+
+After building the application, start it locally with:
