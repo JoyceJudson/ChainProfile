@@ -98,3 +98,13 @@ app/page.tsx
 When you save changes, the page updates automatically in the browser during development.
 
 ## Project Structure
+
+A typical Next.js App Router project includes files and folders such as:
+
+```text
+app/
+public/
+package.json
+next.config.*
+tsconfig.json
+```
