@@ -72,3 +72,12 @@ bun install
 Start the local development server:
 
 ```bash
+npm run dev
+```
+
+You can also use:
+
+```bash
+yarn dev
+pnpm dev
+bun dev
