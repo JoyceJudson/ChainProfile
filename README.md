@@ -44,3 +44,11 @@ You will also need a compatible Node.js environment for running a Next.js applic
 Clone the repository:
 
 ```bash
+git clone https://github.com/JoyceJudson/ChainProfile.git
+```
+
+Move into the project directory:
+
+```bash
+cd ChainProfile
+```
