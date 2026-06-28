@@ -108,3 +108,13 @@ package.json
 next.config.*
 tsconfig.json
 ```
+
+The exact structure may change as the application grows.
+
+## Fonts
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to optimize and load fonts.
+
+The default setup loads [Geist](https://vercel.com/font), a font family provided by Vercel.
+
+## Build
