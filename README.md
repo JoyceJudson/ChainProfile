@@ -154,3 +154,13 @@ bun run start
 If linting is configured in the project, run:
 
 ```bash
+npm run lint
+```
+
+Use the equivalent command for your package manager if needed.
+
+## Deployment
+
+The application can be deployed using a platform that supports Next.js.
+
+The easiest option for many Next.js projects is the [Vercel Platform](https://vercel.com/new?filter=next.js).
